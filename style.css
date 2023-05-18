@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* ter como referencia da borda */ 
+}
+body {
+    /* background-image: url(assets/nordeste-6-cat.jpg); */
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 3px solid green; */
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    
+    background-color: #d4af37;
+}
+.imagens {
+    margin-left: 10vh;
+    height: 10vh;
+}
+
+.primeira-navegacao {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh 20vh 5vh 10vh;
+    color: black;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: white;
+}
+.primeira-sessao {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    margin: 5vh 10vh 15vh 10vh;
+
+    gap: 30px;
+}
+h1 {
+    font-size: 30px;
+    color: #d4af37;
+}
+
+.segunda-sessao {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    margin: 5vh 10vh 15vh 10vh;
+    
+    gap: 30px;
+}
+
+.terceira-sessao {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 5vh 10vh 15vh 10vh;
+    color: black;
+    
+    gap: 30px;
+}
+
+
+
+#img {
+    margin-right: 20vh;
+    margin-left: 4vh;
+    width: 35vw;
+}
+
+.cards {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid white; */
+
+    gap: 20px;  /* para distanciar o elemento das bordas tanto no mobile quanto desktop*/
+}
+.card {
+    width: 60vw;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+    background: white ;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    /* max-height: 38vh; */
+    margin: 32px;
+    gap: 5px;
+}
+
+/* .cards .card span{ */
+    /* font-weight: 300; faz com que a largura das palavras fique menor */
+    /* max-width: 240px;diminuir a largura do texto */
+    /* font-size: 16px; diminuir o tamanho */
+    /* margin-bottom: 16px; */
+    
+/* }    */
+
+button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase; /* transformando o texto em letras maiusculas */
+    border-radius: 32px;
+    /* border: 0; */
+    cursor: pointer; /* para quando eu clica no botao aparecer um curso insuando como se eu estivesse clicando*/
+    font-size: 80%;
+    font-weight: 500; /* fonte de largura*/
+    color: black;
+}
+
+.cards .card#musica button {
+    background: linear-gradient(to right, #9f66ff, #dfcbff);
+}
+.cards .card#origem button {
+    background: linear-gradient(to right, #f5422b, #e8e3f0);
+}
+.cards .card#dancas button {
+    background: linear-gradient(to right, #25f72f, #f7f337);
+}
+a{
+    text-decoration: none;
+}
+
+.cards .card#musica {
+    box-shadow: 20px 20px 50px -30px #9f66ff ; /* 20px eixo x e y 50 px de blur e o ultimo é o deslocamento*/
+}
+.cards .card#origem {
+    box-shadow: 20px 20px 50px -30px red ; /* 20px eixo x e y 50 px de blur e o ultimo é o deslocamento*/
+}
+.cards .card#dancas {
+    box-shadow: 20px 20px 50px -30px #25f72f; /* 20px eixo x e y 50 px de blur e o ultimo é o deslocamento*/
+}
+
+.quinta-sessao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+    color: white;
+    background-color: #333;
+
+    
+}
+ul {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column;  */
+    gap: 20px;
+    
+}
+ul > li {
+    list-style-type: none;
+    
+}
+.sessao-musica {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+
+}
